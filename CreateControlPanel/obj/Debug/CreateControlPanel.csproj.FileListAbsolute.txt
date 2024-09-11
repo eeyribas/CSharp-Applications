@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\bin\Debug\CreateControlPanel.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\bin\Debug\CreateControlPanel.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\bin\Debug\CreateControlPanel.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\obj\Debug\CreateControlPanel.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\obj\Debug\CreateControlPanel.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\obj\Debug\CreateControlPanel.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\obj\Debug\CreateControlPanel.UserControl1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\obj\Debug\CreateControlPanel.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\obj\Debug\CreateControlPanel.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\obj\Debug\CreateControlPanel.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\CreateControlPanel\obj\Debug\CreateControlPanel.pdb

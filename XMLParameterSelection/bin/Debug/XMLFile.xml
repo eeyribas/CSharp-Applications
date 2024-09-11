@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Values>
+  <Value>
+    <ValueId>1</ValueId>
+    <Value1>0.03</Value1>
+    <Value2>0.0213</Value2>
+    <Value3>0.00012</Value3>
+    <Value4>0.0092</Value4>
+    <Value5>0.8762</Value5>
+  </Value>
+  <Value>
+    <ValueId>2</ValueId>
+    <Value1>0.81</Value1>
+    <Value2>0.418</Value2>
+    <Value3>0.98</Value3>
+    <Value4>1.92</Value4>
+    <Value5>8.762</Value5>
+  </Value>
+  <Value>
+    <ValueId>2</ValueId>
+    <Value1>5.1</Value1>
+    <Value2>4.18</Value2>
+    <Value3>7.98</Value3>
+    <Value4>1.23</Value4>
+    <Value5>17.5</Value5>
+  </Value>
+</Values>
+

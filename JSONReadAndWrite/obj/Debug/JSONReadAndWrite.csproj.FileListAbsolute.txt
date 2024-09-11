@@ -1,0 +1,13 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\bin\Debug\JSONReadAndWrite.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\bin\Debug\JSONReadAndWrite.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\bin\Debug\JSONReadAndWrite.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\bin\Debug\Newtonsoft.Json.dll
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\bin\Debug\Newtonsoft.Json.xml
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\obj\Debug\JSONReadAndWrite.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\obj\Debug\JSONReadAndWrite.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\obj\Debug\JSONReadAndWrite.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\obj\Debug\JSONReadAndWrite.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\obj\Debug\JSONReadAndWrite.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\obj\Debug\JSONReadAndWrite.csproj.CopyComplete
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\obj\Debug\JSONReadAndWrite.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\JSONReadAndWrite\obj\Debug\JSONReadAndWrite.pdb

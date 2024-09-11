@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\bin\Debug\ThreadUsage.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\bin\Debug\ThreadUsage.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\bin\Debug\ThreadUsage.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\obj\Debug\ThreadUsage.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\obj\Debug\ThreadUsage.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\obj\Debug\ThreadUsage.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\obj\Debug\ThreadUsage.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\obj\Debug\ThreadUsage.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\obj\Debug\ThreadUsage.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ThreadUsage\obj\Debug\ThreadUsage.pdb

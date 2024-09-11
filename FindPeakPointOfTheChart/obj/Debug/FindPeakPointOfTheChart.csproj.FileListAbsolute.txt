@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\bin\Debug\FindPeakPointOfTheChart.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\bin\Debug\FindPeakPointOfTheChart.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\bin\Debug\FindPeakPointOfTheChart.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\obj\Debug\FindPeakPointOfTheChart.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\obj\Debug\FindPeakPointOfTheChart.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\obj\Debug\FindPeakPointOfTheChart.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\obj\Debug\FindPeakPointOfTheChart.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\obj\Debug\FindPeakPointOfTheChart.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\obj\Debug\FindPeakPointOfTheChart.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\FindPeakPointOfTheChart\obj\Debug\FindPeakPointOfTheChart.pdb

@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\bin\Debug\ReadingTwoSerialPortsWithThreads.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\bin\Debug\ReadingTwoSerialPortsWithThreads.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\bin\Debug\ReadingTwoSerialPortsWithThreads.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\obj\Debug\ReadingTwoSerialPortsWithThreads.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\obj\Debug\ReadingTwoSerialPortsWithThreads.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\obj\Debug\ReadingTwoSerialPortsWithThreads.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\obj\Debug\ReadingTwoSerialPortsWithThreads.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\obj\Debug\ReadingTwoSerialPortsWithThreads.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\obj\Debug\ReadingTwoSerialPortsWithThreads.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadingTwoSerialPortsWithThreads\obj\Debug\ReadingTwoSerialPortsWithThreads.pdb

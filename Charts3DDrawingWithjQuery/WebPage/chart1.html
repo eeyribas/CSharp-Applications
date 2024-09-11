@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/vis.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/vis.min.js"></script>
+</head>
+<body>
+    <div id="visualization"></div>
+    <script type="text/javascript">
+        window.onload = function () {
+            try {
+                var ws = new WebSocket("ws://localhost:3435/");
+                var data = new vis.DataSet();
+                data.add({ id: 0, x: 0, y: 0, z: 0, style: 0 });
+                function ReturnData() {
+                    return data;
+                }
+                var container = document.getElementById('visualization');
+                var options = {
+                    width: '800px',
+                    height: '600px',
+                    style: 'surface',
+                    showPerspective: true,
+                    showGrid: true,
+                    showShadow: false,
+                    keepAspectRatio: true,
+                    verticalRatio: 0.5
+                };
+                var graph3d = new vis.Graph3d(container, ReturnData(), options);
+
+                ws.onopen = function () {
+                    try {
+
+                    } catch (e) {
+                        alert("onopen: " + e)
+                    }
+                };
+
+                ws.onmessage = function (evt) {
+                    try {
+                        received_msg = evt.data;
+                        var myData = JSON.parse(received_msg);
+
+                        data = new vis.DataSet();
+                        // create some nice looking data with sin/cos
+                        var counter = 0;
+                        var steps = 5;  // number of datapoints will be steps*steps
+                        var axisMax = 1000;
+                        var axisStep = axisMax / steps;
+                        for (var x = 0; x < axisMax; x += axisStep) {
+                            for (var y = 0; y < axisMax; y += axisStep) {
+                                var value = myData[counter];
+                                data.add({ id: counter++, x: x, y: y, z: value, style: value });
+                            }
+                        }
+                        graph3d.setData(data);
+                        //alert("uzunluk: " + myData.length + " | data: " + myData);
+                    } catch (e) {
+                        alert("onmessage: " + e)
+                    }
+                }
+
+                ws.onclose = function () {
+                    try {
+
+                    } catch (e) {
+                        alert("onclose: " + e)
+                    }
+                    alert("Connection is closed...");
+                };
+
+            } catch (e) {
+                alert(e)
+            }
+
+        }
+       
+    </script>
+    <div id="visualization"></div>
+</body>
+</html>

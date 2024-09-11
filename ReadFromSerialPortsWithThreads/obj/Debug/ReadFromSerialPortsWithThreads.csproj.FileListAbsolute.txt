@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\bin\Debug\WriteValuesReadFromSerialPortsWithThreads.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\bin\Debug\WriteValuesReadFromSerialPortsWithThreads.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\bin\Debug\WriteValuesReadFromSerialPortsWithThreads.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\obj\Debug\ReadFromSerialPortsWithThreads.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\obj\Debug\ReadFromSerialPortsWithThreads.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\obj\Debug\WriteValuesReadFromSerialPortsWithThreads.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\obj\Debug\ReadFromSerialPortsWithThreads.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\obj\Debug\ReadFromSerialPortsWithThreads.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\obj\Debug\WriteValuesReadFromSerialPortsWithThreads.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadFromSerialPortsWithThreads\obj\Debug\WriteValuesReadFromSerialPortsWithThreads.pdb

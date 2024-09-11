@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/vis.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/vis.min.js"></script>
+</head>
+<body>
+    <div id="visualization"></div>
+    <script type="text/javascript">
+        window.onload = function () {
+            try {
+                var ws = new WebSocket("ws://localhost:3435/");
+                var data = new vis.DataSet();
+                var xIncrease = 2;
+                var yIncrease = 20;
+                var yValue = 0;
+                data.add({ id: 0, x: 0, y: 0, z: 0, style: 0 });
+
+                function ReturnData() {
+                    return data;
+                }
+
+                var container = document.getElementById('visualization');
+
+                var options = {
+                    width: '800px',
+                    height: '800px',
+                    style: 'surface',
+                    showPerspective: true,
+                    showShadow: false,
+                    verticalRatio: 0.2,
+
+
+                    showGrid: false,
+                    backgroundColor: 'gray',
+                    axisColor: 'transparent',
+                    gridColor: 'white',
+
+                };
+
+                var graph3d = new vis.Graph3d(container, ReturnData(), options);
+
+                ws.onopen = function () {
+                    try {
+
+                    } catch (e) {
+                        alert("onopen: " + e)
+                    }
+                };
+
+                ws.onmessage = function (evt) {
+                    try {
+                        received_msg = evt.data;
+                        var myData = JSON.parse(received_msg);
+
+                        var counter = 0;
+                        data = new vis.DataSet();
+                        
+                        if (yValue >= 220) {
+                            yValue = 20 ;
+                        }
+
+                        else {
+                            yValue = yValue + 20;
+                        }
+
+                        for (var y = 0; y < yValue; y += yIncrease) {
+                            for (var x = 400; x < 700; x += xIncrease) {
+                                var value = myData[counter];
+                                data.add({ id: counter++, x: x, y: y, z: value, style: value });
+                           }
+                        }
+                        graph3d.setData(data);
+                    } catch (e) {
+                        alert("onmessage: " + e)
+                    }
+                }
+
+                ws.onclose = function () {
+                    try {
+
+                    } catch (e) {
+                        alert("onclose: " + e)
+                    }
+                    alert("Connection is closed...");
+                };
+
+            } catch (e) {
+                alert(e)
+            }
+
+        }
+
+    </script>
+    <div id="visualization"></div>
+</body>
+</html>

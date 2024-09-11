@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\bin\Debug\ReadAndWriteToExcelDataSource.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\bin\Debug\ReadAndWriteToExcelDataSource.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\bin\Debug\ReadAndWriteToExcelDataSource.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\obj\Debug\ReadAndWriteToExcelDataSource.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\obj\Debug\ReadAndWriteToExcelDataSource.csproj.ResolveComReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\obj\Debug\ReadAndWriteToExcelDataSource.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\obj\Debug\ReadAndWriteToExcelDataSource.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\obj\Debug\ReadAndWriteToExcelDataSource.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\obj\Debug\ReadAndWriteToExcelDataSource.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\obj\Debug\ReadAndWriteToExcelDataSource.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\ReadAndWriteToExcelDataSource\obj\Debug\ReadAndWriteToExcelDataSource.pdb
