@@ -1,0 +1,9 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\bin\Debug\SharedObjects.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\bin\Debug\SharedObjects.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\bin\Debug\SharedObjects.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\obj\Debug\SharedObjects.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\obj\Debug\SharedObjects.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\obj\Debug\SharedObjects.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\obj\Debug\SharedObjects.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\obj\Debug\SharedObjects.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\SharedObjects\obj\Debug\SharedObjects.pdb

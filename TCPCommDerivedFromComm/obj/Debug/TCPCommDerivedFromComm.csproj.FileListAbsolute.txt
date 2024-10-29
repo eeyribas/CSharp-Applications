@@ -1,0 +1,9 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\bin\Debug\TCPCommDerivedFromComm.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\bin\Debug\TCPCommDerivedFromComm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\bin\Debug\TCPCommDerivedFromComm.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\obj\Debug\TCPCommDerivedFromComm.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\obj\Debug\TCPCommDerivedFromComm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\obj\Debug\TCPCommDerivedFromComm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\obj\Debug\TCPCommDerivedFromComm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\obj\Debug\TCPCommDerivedFromComm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\TCPCommDerivedFromComm\obj\Debug\TCPCommDerivedFromComm.pdb

@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\bin\Debug\DataPacketsWithInheritance.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\bin\Debug\DataPacketsWithInheritance.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\bin\Debug\DataPacketsWithInheritance.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\obj\Debug\DataPacketsWithInheritance.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\obj\Debug\DataPacketsWithInheritance.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\obj\Debug\DataPacketsWithInheritance.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\obj\Debug\DataPacketsWithInheritance.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\obj\Debug\DataPacketsWithInheritance.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\obj\Debug\DataPacketsWithInheritance.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DataPacketsWithInheritance\obj\Debug\DataPacketsWithInheritance.pdb

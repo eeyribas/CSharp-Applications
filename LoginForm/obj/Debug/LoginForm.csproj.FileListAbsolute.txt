@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\bin\Debug\LoginForm.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\bin\Debug\LoginForm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\bin\Debug\LoginForm.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\obj\Debug\LoginForm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\obj\Debug\LoginForm.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\obj\Debug\LoginForm.LoginPageForm.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\obj\Debug\LoginForm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LoginForm\obj\Debug\LoginForm.pdb

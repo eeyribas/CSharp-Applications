@@ -1,0 +1,14 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\bin\Debug\LanguageForm.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\bin\Debug\LanguageForm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\bin\Debug\LanguageForm.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\bin\Debug\Newtonsoft.Json.dll
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\bin\Debug\Newtonsoft.Json.xml
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.LangForm.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.csproj.CopyComplete
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\LanguageForm\obj\Debug\LanguageForm.pdb
