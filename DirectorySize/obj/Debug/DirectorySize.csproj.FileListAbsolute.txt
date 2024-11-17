@@ -1,0 +1,6 @@
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DirectorySize\bin\Debug\DirectorySize.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DirectorySize\bin\Debug\DirectorySize.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DirectorySize\bin\Debug\DirectorySize.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DirectorySize\obj\Debug\DirectorySize.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DirectorySize\obj\Debug\DirectorySize.exe
+D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\DirectorySize\obj\Debug\DirectorySize.pdb
