@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\bin\Debug\CustomMessageBox.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\bin\Debug\CustomMessageBox.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\bin\Debug\CustomMessageBox.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\obj\Debug\CustomMessageBox.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\obj\Debug\CustomMessageBox.CustomMessageBox.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\obj\Debug\CustomMessageBox.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\obj\Debug\CustomMessageBox.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\obj\Debug\CustomMessageBox.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\obj\Debug\CustomMessageBox.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\obj\Debug\CustomMessageBox.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CustomMessageBox\obj\Debug\CustomMessageBox.pdb

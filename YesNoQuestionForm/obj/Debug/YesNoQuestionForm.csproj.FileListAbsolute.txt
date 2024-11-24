@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\bin\Debug\YesNoQuestionForm.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\bin\Debug\YesNoQuestionForm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\bin\Debug\YesNoQuestionForm.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\obj\Debug\YesNoQuestionForm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\obj\Debug\YesNoQuestionForm.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\obj\Debug\YesNoQuestionForm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\obj\Debug\YesNoQuestionForm.YesNoQuestionForm.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\obj\Debug\YesNoQuestionForm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\obj\Debug\YesNoQuestionForm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\obj\Debug\YesNoQuestionForm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\YesNoQuestionForm\obj\Debug\YesNoQuestionForm.pdb

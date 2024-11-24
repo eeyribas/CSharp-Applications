@@ -1,0 +1,7 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ImageProcessing\bin\Debug\ImageProcessing.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ImageProcessing\bin\Debug\ImageProcessing.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ImageProcessing\bin\Debug\ImageProcessing.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ImageProcessing\obj\Debug\ImageProcessing.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ImageProcessing\obj\Debug\ImageProcessing.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ImageProcessing\obj\Debug\ImageProcessing.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ImageProcessing\obj\Debug\ImageProcessing.pdb

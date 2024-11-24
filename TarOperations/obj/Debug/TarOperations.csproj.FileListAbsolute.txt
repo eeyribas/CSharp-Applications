@@ -1,0 +1,7 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TarOperations\bin\Debug\TarOperations.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TarOperations\bin\Debug\TarOperations.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TarOperations\bin\Debug\TarOperations.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TarOperations\obj\Debug\TarOperations.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TarOperations\obj\Debug\TarOperations.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TarOperations\obj\Debug\TarOperations.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TarOperations\obj\Debug\TarOperations.pdb

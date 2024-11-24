@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\bin\Debug\DelegatedMethods.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\bin\Debug\DelegatedMethods.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\bin\Debug\DelegatedMethods.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\obj\Debug\DelegatedMethods.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\obj\Debug\DelegatedMethods.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\obj\Debug\DelegatedMethods.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\obj\Debug\DelegatedMethods.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\obj\Debug\DelegatedMethods.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\obj\Debug\DelegatedMethods.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\DelegatedMethods\obj\Debug\DelegatedMethods.pdb

@@ -1,0 +1,8 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CreateLibrary\SimpleLibrary\bin\Debug\SimpleLibrary.dll.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CreateLibrary\SimpleLibrary\bin\Debug\SimpleLibrary.dll
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CreateLibrary\SimpleLibrary\bin\Debug\SimpleLibrary.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CreateLibrary\SimpleLibrary\obj\Debug\SimpleLibrary.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CreateLibrary\SimpleLibrary\obj\Debug\SimpleLibrary.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CreateLibrary\SimpleLibrary\obj\Debug\SimpleLibrary.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CreateLibrary\SimpleLibrary\obj\Debug\SimpleLibrary.dll
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\CreateLibrary\SimpleLibrary\obj\Debug\SimpleLibrary.pdb
