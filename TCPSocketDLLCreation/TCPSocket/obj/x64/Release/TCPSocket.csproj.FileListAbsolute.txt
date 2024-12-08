@@ -1,0 +1,13 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\bin\x64\Release\TCPSocket.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\bin\x64\Release\TCPSocket.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\bin\x64\Release\TCPSocket.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\bin\x64\Release\TCPSocketDLL.dll
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\bin\x64\Release\TCPSocketDLL.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\obj\x64\Release\TCPSocket.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\obj\x64\Release\TCPSocket.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\obj\x64\Release\TCPSocket.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\obj\x64\Release\TCPSocket.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\obj\x64\Release\TCPSocket.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\obj\x64\Release\TCPSocket.csproj.CopyComplete
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\obj\x64\Release\TCPSocket.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocket\obj\x64\Release\TCPSocket.pdb
