@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\bin\Debug\ChartSelectionRange.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\bin\Debug\ChartSelectionRange.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\bin\Debug\ChartSelectionRange.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\obj\Debug\ChartSelectionRange.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\obj\Debug\ChartSelectionRange.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\obj\Debug\ChartSelectionRange.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\obj\Debug\ChartSelectionRange.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\obj\Debug\ChartSelectionRange.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\obj\Debug\ChartSelectionRange.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\ChartSelectionRange\obj\Debug\ChartSelectionRange.pdb

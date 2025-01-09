@@ -42,7 +42,7 @@ namespace DelegatedMethods
             {
                 if (threadState == true)
                 {
-                    DelegatedMethods.SetLabelText(label1, "Value : " + value.ToString());
+                    DelegatedMethods.TextLabel(label1, "Value : " + value.ToString());
                     value++;
                     Thread.Sleep(1000);
                 }
