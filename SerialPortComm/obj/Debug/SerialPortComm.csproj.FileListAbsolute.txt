@@ -1,0 +1,9 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\bin\Debug\SerialPortComm.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\bin\Debug\SerialPortComm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\bin\Debug\SerialPortComm.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\obj\Debug\SerialPortComm.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\obj\Debug\SerialPortComm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\obj\Debug\SerialPortComm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\obj\Debug\SerialPortComm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\obj\Debug\SerialPortComm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\SerialPortComm\obj\Debug\SerialPortComm.pdb

@@ -1,0 +1,10 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\bin\Debug\MOAFilter.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\bin\Debug\MOAFilter.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\bin\Debug\MOAFilter.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\obj\Debug\MOAFilter.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\obj\Debug\MOAFilter.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\obj\Debug\MOAFilter.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\obj\Debug\MOAFilter.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\obj\Debug\MOAFilter.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\obj\Debug\MOAFilter.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\MOAFilter\obj\Debug\MOAFilter.pdb

@@ -1,0 +1,11 @@
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\bin\Debug\InfoForm.exe.config
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\bin\Debug\InfoForm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\bin\Debug\InfoForm.pdb
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\obj\Debug\InfoForm.csproj.AssemblyReference.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\obj\Debug\InfoForm.Form1.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\obj\Debug\InfoForm.InfoPageForm.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\obj\Debug\InfoForm.Properties.Resources.resources
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\obj\Debug\InfoForm.csproj.GenerateResource.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\obj\Debug\InfoForm.csproj.CoreCompileInputs.cache
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\obj\Debug\InfoForm.exe
+D:\BACKUP\GitHub Calismalar\CSharp-Applications\InfoForm\obj\Debug\InfoForm.pdb
