@@ -14,26 +14,14 @@ namespace DatabaseAbstractLayer.Database
 
         public RecordData()
         {
-            try
-            {
-                Clear();
-            }
-            catch (Exception ex)
-            {
-            }
+            Clear();
         }
 
         public void Clear()
         {
-            try
-            {
-                Id = 0;
-                Value1 = "";
-                Value2 = "";
-            }
-            catch (Exception ex)
-            {
-            }
+            Id = 0;
+            Value1 = "";
+            Value2 = "";
         }
     }
 }

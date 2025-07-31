@@ -128,9 +128,7 @@ namespace ExcelReader
             try
             {
                 if (Shared.processInfo.Value != 0)
-                {
                     Shared.processInfo.Key.Kill();
-                }
             }
             catch (Exception ex)
             {

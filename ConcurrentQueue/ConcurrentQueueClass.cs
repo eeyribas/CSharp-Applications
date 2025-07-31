@@ -42,6 +42,7 @@ namespace ConcurrentQueue
             {
                 concurrentQueues.TryDequeue(out data);
                 data.state = true;
+
                 return data;
             }
 

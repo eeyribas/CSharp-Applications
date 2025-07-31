@@ -28,6 +28,7 @@ namespace FindPeakPointOfTheChart
                 yAxis.Add(random.Next(0, 100));
                 xAxis.Add(i);
             }
+
             for (int i = 0; i < yAxis.Count; i++)
                 chart1.Series[0].Points.AddXY(xAxis[i], yAxis[i]);
         }
@@ -38,10 +39,9 @@ namespace FindPeakPointOfTheChart
             chart1.Series[2].Points.Clear();
 
             List<int> peakIndex = FindPeak(yAxis);
-            int index = 0;
             for (int i = 0; i < peakIndex.Count; i++)
             {
-                index = peakIndex[i];
+                int index = peakIndex[i];
                 chart1.Series[1].Points.AddXY(xAxis[index], yAxis[index]);
             }
         }
@@ -51,10 +51,9 @@ namespace FindPeakPointOfTheChart
             chart1.Series[2].Points.Clear();
 
             List<int> peakFilterIndex = FindPeakFilter(yAxis, Convert.ToInt32(textBox1.Text));
-            int index = 0;
             for (int i = 0; i < peakFilterIndex.Count; i++)
             {
-                index = peakFilterIndex[i];
+                int index = peakFilterIndex[i];
                 chart1.Series[2].Points.AddXY(xAxis[index], yAxis[index]);
             }
         }
@@ -99,15 +98,13 @@ namespace FindPeakPointOfTheChart
             if (list[firstIndex] > (list[secondIndex] + filterValue))
                 indexFilters.Add(firstIndex);
 
-            int previousIndex = 0;
-            int tmpIndex = 0;
-            int nextIndex = 0;
             for (int i = 1; i < indexs.Count - 1; i++)
             {
-                previousIndex = indexs[i - 1];
-                tmpIndex = indexs[i];
-                nextIndex = indexs[i + 1];
-                if (list[tmpIndex] >= (list[previousIndex] + filterValue) && list[tmpIndex] > (list[nextIndex] + filterValue))
+                int previousIndex = indexs[i - 1];
+                int tmpIndex = indexs[i];
+                int nextIndex = indexs[i + 1];
+                if (list[tmpIndex] >= (list[previousIndex] + filterValue) && 
+                    list[tmpIndex] > (list[nextIndex] + filterValue))
                     indexFilters.Add(tmpIndex);
             }
 

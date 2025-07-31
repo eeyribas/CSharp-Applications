@@ -16,18 +16,19 @@ namespace ImageProcessing
         public static Bitmap ScaleBitmap(Bitmap sourceBMP, int width, int height)
         {
             Bitmap result = new Bitmap(width, height);
-            using (Graphics g = Graphics.FromImage(result))
-                g.DrawImage(sourceBMP, 0, 0, width, height);
+            using (Graphics graphics = Graphics.FromImage(result))
+                graphics.DrawImage(sourceBMP, 0, 0, width, height);
 
             return result;
         }
 
         public static Image GetCopyImage(string path)
         {
-            using (Image im = Image.FromFile(path))
+            using (Image image = Image.FromFile(path))
             {
-                Bitmap bm = new Bitmap(im);
-                return bm;
+                Bitmap bitmap = new Bitmap(image);
+
+                return bitmap;
             }
         }
 
@@ -49,11 +50,13 @@ namespace ImageProcessing
                     if (bInputImage.Size.Height < pictureBoxSize.Height)
                     {
                         returnList.Add(bInputImage);
+
                         return returnList;
                     }
                     else
                     {
                         returnList = SplitHorizontal(bInputImage, pictureBoxSize.Height, pictureBoxSize.Width);
+                        
                         return returnList;
                     }
                 }

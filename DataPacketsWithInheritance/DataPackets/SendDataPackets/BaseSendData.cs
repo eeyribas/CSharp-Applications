@@ -9,12 +9,6 @@ namespace DataPacketsWithInheritance.DataPackets.SendDataPackets
     public class BaseSendData : ISendData
     {
         DerivedSendData derivedSendData = new DerivedSendData();
-
-        public int Value(int value)
-        {
-            return derivedSendData.Value(value);
-        }
-
         public bool Value1 { get; set; }
         public int Value2 { get; set; }
 
@@ -24,6 +18,11 @@ namespace DataPacketsWithInheritance.DataPackets.SendDataPackets
                 return Value(Value2);
             else
                 return 0;
+        }
+
+        public int Value(int value)
+        {
+            return derivedSendData.Value(value);
         }
     }
 }

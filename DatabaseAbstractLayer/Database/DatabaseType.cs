@@ -15,16 +15,10 @@ namespace DatabaseAbstractLayer.Database
 
         public ProcedureOutput()
         {
-            try
-            {
-                StatusId = -1;
-                StatusMessage = -1;
-                ItemId = '0';
-                DurationTime = "";
-            }
-            catch (Exception ex)
-            {
-            }
+            StatusId = -1;
+            StatusMessage = -1;
+            ItemId = '0';
+            DurationTime = "";
         }
     }
 

@@ -15,20 +15,15 @@ namespace DataPacketsWithInheritance.DataPackets.ReceiveDataPackets
 
         public DerivedReceiveData(byte[] receiveData)
         {
-            try
-            {
-                value1 = Convert.ToInt32(receiveData[0]);
-                value2 = ValueCalc(receiveData, 1);
-                value3 = ValueCalc(receiveData, 3);
-            }
-            catch (Exception ex)
-            {
-            }
+            value1 = Convert.ToInt32(receiveData[0]);
+            value2 = ValueCalc(receiveData, 1);
+            value3 = ValueCalc(receiveData, 3);
         }
 
         private double ValueCalc(byte[] receiverData, int firstByte)
         {
-            double value = (Convert.ToDouble(receiverData[firstByte]) * 0.205) + (Convert.ToDouble(receiverData[firstByte + 1]) / 200);
+            double value = (Convert.ToDouble(receiverData[firstByte]) * 0.205) + 
+                           (Convert.ToDouble(receiverData[firstByte + 1]) / 200);
 
             return value;
         }

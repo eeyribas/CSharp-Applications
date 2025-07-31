@@ -14,7 +14,7 @@ namespace DelegatedMethods
     public partial class Form1 : Form
     {
         private Thread thread;
-        private bool threadState = true;
+        private bool threadState;
 
         public Form1()
         {

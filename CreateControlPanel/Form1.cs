@@ -19,7 +19,7 @@ namespace CreateControlPanel
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            userControl11.label1.Text = "Form";
+            userControl1.label1.Text = "Form";
         }
     }
 }

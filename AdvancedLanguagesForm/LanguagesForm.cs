@@ -32,7 +32,7 @@ namespace AdvancedLanguagesForm
 
         private List<LanguageObject> languageObjects = new List<LanguageObject>();
         public LanguageType SelectedLanguage { get; set; }
-        LanguageType activeLanguage = LanguageType.None;
+        private LanguageType activeLanguage = LanguageType.None;
 
         public LanguagesForm(LanguageType activeLanguage)
         {

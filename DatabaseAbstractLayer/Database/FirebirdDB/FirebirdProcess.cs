@@ -39,18 +39,13 @@ namespace DatabaseAbstractLayer.Database.FirebirdDB
 
         public override void ConnectionString(string userId, string passw, string path)
         {
-            try
-            {
-                firebirdOperations.ConnectionString(userId, passw, path);
-            }
-            catch (Exception ex)
-            {
-            }
+            firebirdOperations.ConnectionString(userId, passw, path);
         }
 
         public override bool CreateRecordData(RecordData recordData)
         {
-            string command = createRecordCommand + "('" + recordData.Value1 + "','" + recordData.Value2 + "','" + DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss") + "');";
+            string command = createRecordCommand + "('" + recordData.Value1 + "','" + recordData.Value2 + "','" + 
+                             DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss") + "');";
             bool result = firebirdOperations.Write(command);
 
             return result;
@@ -67,7 +62,8 @@ namespace DatabaseAbstractLayer.Database.FirebirdDB
         public override List<RecordData> SelectRecordData(DateTime firstDateTime, DateTime secondDateTime)
         {
             List<RecordData> recordDataList = new List<RecordData>();
-            string command = selectRecordCommand + "('" + firstDateTime.ToString("dd.MM.yyyy 00:00:00") + "','" + secondDateTime.ToString("dd.MM.yyyy 23:59:59") + "');";
+            string command = selectRecordCommand + "('" + firstDateTime.ToString("dd.MM.yyyy 00:00:00") + "','" + 
+                             secondDateTime.ToString("dd.MM.yyyy 23:59:59") + "');";
             List<string> data = firebirdOperations.Read(command);
 
             if (data.Count > 0)

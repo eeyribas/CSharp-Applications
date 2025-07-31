@@ -52,7 +52,7 @@ namespace AdvancedLoginForm
         private void Button_MouseMove(object sender, MouseEventArgs e)
         {
             Button tmpButton = sender as Button;
-            tmpButton.ForeColor = System.Drawing.Color.FromArgb(64, 64, 64);
+            tmpButton.ForeColor = Color.FromArgb(64, 64, 64);
             tmpButton.BackColor = Color.White;
         }
 
@@ -60,7 +60,7 @@ namespace AdvancedLoginForm
         {
             Button tmpButton = sender as Button;
             tmpButton.ForeColor = Color.White;
-            tmpButton.BackColor = System.Drawing.Color.FromArgb(64, 64, 64);
+            tmpButton.BackColor = Color.FromArgb(64, 64, 64);
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)

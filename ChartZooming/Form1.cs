@@ -75,22 +75,22 @@ namespace ChartZooming
 
         private void chart1_SelectionRangeChanged(object sender, CursorEventArgs e)
         {
-            double tmpC1StartX = charts[0].ChartAreas[0].CursorX.SelectionStart;
-            double tmpC1EndX = charts[0].ChartAreas[0].CursorX.SelectionEnd;
+            double tmpStartX = charts[0].ChartAreas[0].CursorX.SelectionStart;
+            double tmpEndX = charts[0].ChartAreas[0].CursorX.SelectionEnd;
 
-            if (tmpC1StartX > tmpC1EndX)
+            if (tmpStartX > tmpEndX)
             {
-                double tmp = tmpC1EndX;
-                tmpC1EndX = tmpC1StartX;
-                tmpC1StartX = tmp;
+                double tmp = tmpEndX;
+                tmpEndX = tmpStartX;
+                tmpStartX = tmp;
             }
 
-            if (tmpC1StartX != tmpC1EndX)
+            if (tmpStartX != tmpEndX)
             {
                 charts[1].Series[0].Points.Clear();
                 charts[2].Series[0].Points.Clear();
                 charts[3].Series[0].Points.Clear();
-                for (int i = (int)tmpC1StartX; i <= tmpC1EndX; i++)
+                for (int i = (int)tmpStartX; i <= tmpEndX; i++)
                 {
                     charts[1].Series[0].Points.AddXY(i, array2[i]);
                     charts[2].Series[0].Points.AddXY(i, array3[i]);

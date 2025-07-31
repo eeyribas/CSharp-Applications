@@ -29,23 +29,23 @@ namespace CreateControlPanel
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControl11 = new CreateControlPanel.UserControl1();
+            this.userControl1 = new CreateControlPanel.UserControl1();
             this.SuspendLayout();
             // 
-            // userControl11
+            // userControl1
             // 
-            this.userControl11.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.userControl11.Location = new System.Drawing.Point(27, 26);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(276, 203);
-            this.userControl11.TabIndex = 0;
+            this.userControl1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.userControl1.Location = new System.Drawing.Point(27, 26);
+            this.userControl1.Name = "userControl1";
+            this.userControl1.Size = new System.Drawing.Size(276, 203);
+            this.userControl1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.userControl11);
+            this.ClientSize = new System.Drawing.Size(347, 275);
+            this.Controls.Add(this.userControl1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -55,7 +55,7 @@ namespace CreateControlPanel
 
         #endregion
 
-        private UserControl1 userControl11;
+        private UserControl1 userControl1;
     }
 }
 

@@ -46,7 +46,9 @@ namespace ChartSelectionRange
 
         private void chart1_SelectionRangeChanged(object sender, CursorEventArgs e)
         {
-            selectionRange = SelectionRange(chart1.ChartAreas[0].CursorX.SelectionStart, chart1.ChartAreas[0].CursorX.SelectionEnd, xList);
+            selectionRange = SelectionRange(chart1.ChartAreas[0].CursorX.SelectionStart, 
+                                            chart1.ChartAreas[0].CursorX.SelectionEnd, 
+                                            xList);
             DrawChart(chart1, yList, xList, selectionRange.Key, selectionRange.Value);
         }
 
@@ -57,9 +59,9 @@ namespace ChartSelectionRange
 
         private void DrawChart(Chart chart, List<int> yData, List<int> xData, int startIndex, int endIndex)
         {
-            chart1.Series[0].Points.Clear();
+            chart.Series[0].Points.Clear();
             for (int i = startIndex; i < endIndex; i++)
-                chart1.Series[0].Points.AddXY(xData[i], yData[i]);
+                chart.Series[0].Points.AddXY(xData[i], yData[i]);
         }
 
         private KeyValuePair<int, int> SelectionRange(double startX, double endX, List<int> xData)
