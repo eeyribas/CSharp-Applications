@@ -1,6 +1,8 @@
 # CSharp-Applications
-In this repository, there are applications created using the C# programming language. These applications cover topics such as 3D chart drawings, control panel design, Excel operations, JSON reading and writing, XML reading and writing, thread operations, and SQLite usage.
+Contains applications developed using the C# programming language. These applications cover a variety of topics, including 3D chart rendering, control panel design, Excel operations, JSON reading and writing, XML processing, multithreading, and SQLite integration.
 
-C# IDE: Visual Studio 2019
+Programming Language: C# Programming Language
 
-C# .NET Framework Version: 4.6.1
+Framework: .NET Framework 4.6.1
+
+IDE: Visual Studio 2019
