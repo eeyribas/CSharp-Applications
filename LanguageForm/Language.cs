@@ -18,31 +18,19 @@ namespace LanguageForm
 
         public void Write()
         {
-            try
-            {
-                File.WriteAllText("Language.json", Newtonsoft.Json.JsonConvert.SerializeObject(Shared.language));
-            }
-            catch (Exception ex)
-            {
-            }
+            File.WriteAllText("Language.json", Newtonsoft.Json.JsonConvert.SerializeObject(Shared.language));
         }
 
         public void Read()
         {
-            try
+            if (File.Exists("Language.json"))
             {
-                if (File.Exists("Language.json"))
-                {
-                    Shared.language = Newtonsoft.Json.JsonConvert.DeserializeObject<Language>(File.ReadAllText("Language.json"));
-                }
-                else
-                {
-                    Write();
-                    Shared.language = Newtonsoft.Json.JsonConvert.DeserializeObject<Language>(File.ReadAllText("Language.json"));
-                }
+                Shared.language = Newtonsoft.Json.JsonConvert.DeserializeObject<Language>(File.ReadAllText("Language.json"));
             }
-            catch (Exception ex)
+            else
             {
+                Write();
+                Shared.language = Newtonsoft.Json.JsonConvert.DeserializeObject<Language>(File.ReadAllText("Language.json"));
             }
         }
     }

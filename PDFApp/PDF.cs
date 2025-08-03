@@ -17,7 +17,8 @@ namespace PDFApp
     {
         private Thread thread;
 
-        public void Create(List<double> xList, List<double> yList, List<string> textList, int firstCount, int lastCount, double grapValue1, double grapValue2)
+        public void Create(List<double> xList, List<double> yList, List<string> textList, int firstCount, 
+                           int lastCount, double grapValue1, double grapValue2)
         {
             if (thread != null && thread.IsAlive)
                 return;
@@ -25,7 +26,8 @@ namespace PDFApp
             thread.Start();
         }
 
-        private void ThreadProcess(List<double> xList, List<double> yList, List<string> textList, int firstCount, int lastCount, double grapValue1, double grapValue2)
+        private void ThreadProcess(List<double> xList, List<double> yList, List<string> textList, int firstCount, 
+                                   int lastCount, double grapValue1, double grapValue2)
         {
             CloseAdobeReader();
             Print(xList, yList, textList, firstCount, lastCount, grapValue1, grapValue2);
@@ -37,7 +39,8 @@ namespace PDFApp
                 clsProcess.Kill();
         }
 
-        private void Print(List<double> xList, List<double> yList, List<string> textList, int firstCount, int lastCount, double grapValue1, double grapValue2)
+        private void Print(List<double> xList, List<double> yList, List<string> textList, int firstCount, 
+                           int lastCount, double grapValue1, double grapValue2)
         {
             string pdfName = Name();
             FileStream printFileStream = new FileStream(pdfName, FileMode.Create, FileAccess.Write, FileShare.None);
@@ -56,7 +59,8 @@ namespace PDFApp
             iTextSharp.text.pdf.PdfPTable dateTable = CreateTable(2, 39f, true, dateWidthsPDF, printDocument, 0, 9f);
             var dateFont = Font(0, 0, 0, "Calibri", 11);
             dateTable.AddCell("");
-            dateTable.AddCell(new iTextSharp.text.Paragraph("Date : " + DateTime.Now.ToString("dd.MM.yyyy") + "\n" + "Time : " + DateTime.Now.ToString("HH:mm:ss"), dateFont));
+            dateTable.AddCell(new iTextSharp.text.Paragraph("Date : " + DateTime.Now.ToString("dd.MM.yyyy") + "\n" + "Time : " + 
+                              DateTime.Now.ToString("HH:mm:ss"), dateFont));
             printDocument.Add(dateTable);
   
             float[] headerWidthsPDF = { 435f, 333f };
@@ -100,16 +104,16 @@ namespace PDFApp
                 tmpYList.Add(yList[i]);
             }
             pageTable1.AddCell("");
-            iTextSharp.text.Image image1 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", "Microsoft Sans Serif", 
-                                           8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue1);
+            iTextSharp.text.Image image1 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", 
+                                                       "Microsoft Sans Serif", 8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue1);
             pageTable1.AddCell(image1);
             pageTable1.AddCell("");
-            iTextSharp.text.Image image2 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", "Microsoft Sans Serif", 
-                                                         8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue1);
+            iTextSharp.text.Image image2 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", 
+                                                       "Microsoft Sans Serif", 8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue1);
             pageTable1.AddCell(image2);
             pageTable1.AddCell("");
-            iTextSharp.text.Image image3 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", "Microsoft Sans Serif", 
-                                                           8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue1);
+            iTextSharp.text.Image image3 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", 
+                                                       "Microsoft Sans Serif", 8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue1);
             pageTable1.AddCell(image3);
             printDocument.Add(pageTable1);
 
@@ -136,16 +140,16 @@ namespace PDFApp
             float[] widthsPDF3 = { 110f, 720f };
             iTextSharp.text.pdf.PdfPTable pageTable3 = CreateTable(2, 141f, true, widthsPDF3, printDocument, 0, 0);
             pageTable3.AddCell("");
-            iTextSharp.text.Image image4 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", "Microsoft Sans Serif", 
-                                           8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue2);
+            iTextSharp.text.Image image4 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", 
+                                                       "Microsoft Sans Serif", 8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue2);
             pageTable3.AddCell(image4);
             pageTable3.AddCell("");
-            iTextSharp.text.Image image5 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", "Microsoft Sans Serif", 
-                                           8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue2);
+            iTextSharp.text.Image image5 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", 
+                                                       "Microsoft Sans Serif", 8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue2);
             pageTable3.AddCell(image5);
             pageTable3.AddCell("");
-            iTextSharp.text.Image image6 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", "Microsoft Sans Serif", 
-                                           8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue2);
+            iTextSharp.text.Image image6 = CreateChart(tmpXList, tmpYList, 5, 3, 1010, 135, Color.White, 1, Color.Green, Color.White, "0.00", 
+                                                       "Microsoft Sans Serif", 8, "X", "Y", 1, 1, Color.LightGray, 0, grapValue2);
             pageTable3.AddCell(image6);
             printDocument.Add(pageTable3);
             printDocument.Add(pageTable2);
@@ -178,7 +182,8 @@ namespace PDFApp
             return name;
         }
 
-        private iTextSharp.text.Image PDFBackgroundImage(Image image, float widthScaleToFit, float heightScaleToFit, float xAbsolutePosition, float yAbsolutePosition)
+        private iTextSharp.text.Image PDFBackgroundImage(Image image, float widthScaleToFit, float heightScaleToFit, 
+                                                         float xAbsolutePosition, float yAbsolutePosition)
         {
             iTextSharp.text.Image pageBackgroundImage = iTextSharp.text.Image.GetInstance(image, ImageFormat.Png);
             pageBackgroundImage.Alignment = iTextSharp.text.Image.UNDERLYING;
@@ -188,7 +193,8 @@ namespace PDFApp
             return pageBackgroundImage;
         }
 
-        private iTextSharp.text.pdf.PdfPTable CreateTable(int cellCount, float fixedHeight, bool lockedWidthState, float[] widthsPDF, iTextSharp.text.Document printDocument, int defaultCellBorder, float defaultCellPaddingTop)
+        private iTextSharp.text.pdf.PdfPTable CreateTable(int cellCount, float fixedHeight, bool lockedWidthState, float[] widthsPDF, 
+                                                          iTextSharp.text.Document printDocument, int defaultCellBorder, float defaultCellPaddingTop)
         {
             iTextSharp.text.pdf.PdfPTable table = new iTextSharp.text.pdf.PdfPTable(cellCount);
             table.DefaultCell.FixedHeight = fixedHeight;
@@ -221,9 +227,12 @@ namespace PDFApp
             return cell;
         }
 
-        private iTextSharp.text.Image CreateChart(List<double> xList, List<double> yList, double xAxisGridCount, double yAxisGridCount, int chartWidth, int chartHeight, Color chartBackColor, int seriesBorderWidth, Color seriesColor, Color chartAreaColor, 
-                                                  string chartAreaLabelStyleFormat, string chartAreaLabelStyleFont, float chartAreaLabelStyleFontSize, string xChartAreaTitle, string yChartAreaTitle, int xChartAreaMajorGridLineWidth, 
-                                                  int yChartAreaMajorGridLineWidth, Color chartAreaAxisColor, double yMinAxis, double yMaxAxis)
+        private iTextSharp.text.Image CreateChart(List<double> xList, List<double> yList, double xAxisGridCount, double yAxisGridCount, 
+                                                  int chartWidth, int chartHeight, Color chartBackColor, int seriesBorderWidth, Color seriesColor, 
+                                                  Color chartAreaColor, string chartAreaLabelStyleFormat, string chartAreaLabelStyleFont, 
+                                                  float chartAreaLabelStyleFontSize, string xChartAreaTitle, string yChartAreaTitle, 
+                                                  int xChartAreaMajorGridLineWidth, int yChartAreaMajorGridLineWidth, Color chartAreaAxisColor, 
+                                                  double yMinAxis, double yMaxAxis)
         {
             Chart chart = new Chart()
             {

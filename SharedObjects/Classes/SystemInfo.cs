@@ -19,6 +19,7 @@ namespace SharedObjects.Classes
                 if (pr.ProcessName.StartsWith(appName))
                     processes.Add(pr.Id);
             }
+
             return processes;
         }
     }

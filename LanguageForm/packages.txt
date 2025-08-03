@@ -1,0 +1,4 @@
+Modules;
+- Newtonsoft.Json.13.0.3
+
+You can download the modules here via NuGet Package.

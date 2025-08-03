@@ -15,17 +15,11 @@ namespace LanguageForm
 
         public static void Initialize()
         {
-            try
-            {
-                language = new Language();
-                language.Read();
+            language = new Language();
+            language.Read();
 
-                form1 = new Form1();
-                langForm = new LangForm();
-            }
-            catch (Exception ex)
-            {
-            }
+            form1 = new Form1();
+            langForm = new LangForm();
         }
     }
 }

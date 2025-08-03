@@ -53,10 +53,10 @@ namespace ReleaseNotes
         private void AddNewVersion(string versionNumber, DateTime releaseDate, List<string> newFeatures, List<string> bugFixes)
         {
             TreeNode root = new TreeNode("▶ Version " + versionNumber + " --- Release Date: " + releaseDate.ToString("dd.MM.yyy"));
-            root.Nodes.Add("▶ Yeni Özellikler");
+            root.Nodes.Add("▶ New Features");
             foreach (string item in newFeatures)
                 root.Nodes[root.Nodes.Count - 1].Nodes.Add("✏ " + item);
-            root.Nodes.Add("▶ Bug Onarımları");
+            root.Nodes.Add("▶ Bug Fixes");
             foreach (string item in bugFixes)
                 root.Nodes[root.Nodes.Count - 1].Nodes.Add("✏ " + item);
 

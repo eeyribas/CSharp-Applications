@@ -1,9 +1,0 @@
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\bin\Debug\PointChartWithCanvasJS.exe.config
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\bin\Debug\PointChartWithCanvasJS.exe
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\bin\Debug\PointChartWithCanvasJS.pdb
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\obj\Debug\PointChartWithCanvasJS.Form1.resources
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\obj\Debug\PointChartWithCanvasJS.Properties.Resources.resources
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\obj\Debug\PointChartWithCanvasJS.csproj.GenerateResource.cache
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\obj\Debug\PointChartWithCanvasJS.csproj.CoreCompileInputs.cache
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\obj\Debug\PointChartWithCanvasJS.exe
-D:\BACKUP\GitHub Calismalar\CSharp-WinForms-Applications\PointChartWithCanvasJS\obj\Debug\PointChartWithCanvasJS.pdb

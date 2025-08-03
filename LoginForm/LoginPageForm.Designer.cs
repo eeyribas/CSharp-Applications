@@ -75,7 +75,7 @@ namespace LoginForm
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(433, 22);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Devam etmek için lütfen şifreyi giriniz";
+            this.label2.Text = "Please enter the password to continue";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
@@ -89,7 +89,7 @@ namespace LoginForm
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 50);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Giriş";
+            this.button1.Text = "Enter";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -102,7 +102,7 @@ namespace LoginForm
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(360, 41);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Gelişmiş Ayarlar";
+            this.label1.Text = "Advanced Settings";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button2
@@ -117,7 +117,7 @@ namespace LoginForm
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 50);
             this.button2.TabIndex = 3;
-            this.button2.Text = "İptal";
+            this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

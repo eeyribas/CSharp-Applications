@@ -1,0 +1,5 @@
+Modules;
+- BouncyCastle.Cryptography.2.4.0
+- iTextSharp.5.5.13.4
+
+You can download the modules here via NuGet Package.

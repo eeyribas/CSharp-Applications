@@ -36,22 +36,16 @@ namespace LoginForm
 
         private void ConnectionForm()
         {
-            try
+            if (textBox1.Text.Trim() == Password)
             {
-                if (textBox1.Text.Trim() == Password)
-                {
-                    label2.Text = "Doğru";
-                    textBox1.Clear();
-                    this.Close();
-                }
-                else
-                {
-                    label2.Text = "Hatalı";
-                    textBox1.Clear();
-                }
+                label2.Text = "True";
+                textBox1.Clear();
+                this.Close();
             }
-            catch (Exception ex)
+            else
             {
+                label2.Text = "Error";
+                textBox1.Clear();
             }
         }
 

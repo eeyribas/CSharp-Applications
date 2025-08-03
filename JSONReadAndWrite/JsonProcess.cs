@@ -7,6 +7,13 @@ using System.Threading.Tasks;
 
 namespace JSONReadAndWrite
 {
+    public class JsonData
+    {
+        public int value1 { get; set; }
+        public int value2 { get; set; }
+        public int value3 { get; set; }
+    }
+
     public class JsonProcess
     {
         public int jsonId { set; get; }
@@ -70,12 +77,5 @@ namespace JSONReadAndWrite
                 ControlParams.jsonProcess = Newtonsoft.Json.JsonConvert.DeserializeObject<JsonProcess>(readJsonString);
             }
         }
-    }
-
-    public class JsonData
-    {
-        public int value1 { get; set; }
-        public int value2 { get; set; }
-        public int value3 { get; set; }
     }
 }

@@ -22,7 +22,10 @@ namespace JSONReadAndWrite
             string jsonIndexString = textBox1.Text.Trim();
             int jsonIndex = Convert.ToInt32(jsonIndexString);
             if (jsonIndex < 4)
-                ControlParams.jsonProcess.ChangeJsonData(jsonIndex, Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text), Convert.ToInt32(textBox4.Text));
+            {
+                ControlParams.jsonProcess.ChangeJsonData(jsonIndex, Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text),
+                                                         Convert.ToInt32(textBox4.Text));
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -20,15 +20,8 @@ namespace SQLiteUsage
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                SQLiteConnection.CreateFile("MySQLite");
-                label1.Text = "Database created.";
-            }
-            catch (Exception)
-            {
-                label1.Text = "Database couldn't created.";
-            }
+            SQLiteConnection.CreateFile("MySQLite");
+            label1.Text = "Database created.";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -41,6 +34,7 @@ namespace SQLiteUsage
                 SQLiteCommand sqliteCommand = new SQLiteCommand(sqlRequest, sqliteConnection);
                 sqliteCommand.ExecuteNonQuery();
                 sqliteConnection.Close();
+
                 label1.Text = "Table created.";
             }
             else
@@ -63,7 +57,10 @@ namespace SQLiteUsage
                 sqliteCommand.ExecuteNonQuery();
                 SQLiteDataReader reader = sqliteCommand.ExecuteReader();
                 while (reader.Read())
-                    listBox1.Items.Add("id= " + reader["id"].ToString() + ",     name= " + reader["name"].ToString() + ",     project count= " + reader["projectCount"].ToString());
+                {
+                    listBox1.Items.Add("id= " + reader["id"].ToString() + ",     name= " + reader["name"].ToString() +
+                                       ",     project count= " + reader["projectCount"].ToString());
+                }
                 sqliteConnection.Close();
 
                 label1.Text = "List Data";
@@ -84,7 +81,8 @@ namespace SQLiteUsage
             if (sqliteConnection.State == ConnectionState.Open)
             {
                 sqliteCommand.Connection = sqliteConnection;
-                sqliteCommand.CommandText = "insert into projects(name, projectCount) values ('" + textBox2.Text + "','" + projectCountValue + "')";
+                sqliteCommand.CommandText = "insert into projects(name, projectCount) values ('" + 
+                                            textBox2.Text + "','" + projectCountValue + "')";
                 sqliteCommand.ExecuteNonQuery();
                 sqliteConnection.Close();
 
