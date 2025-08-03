@@ -1,0 +1,8 @@
+Modules;
+- FirebirdSql.Data.FirebirdClient.10.3.1
+- Newtonsoft.Json.13.0.3
+- System.Reflection.Emit.4.7.0
+- System.Runtime.CompilerServices.Unsafe.4.5.3
+- System.Threading.Tasks.Extensions.4.5.4
+
+You can download the modules here via NuGet Package.

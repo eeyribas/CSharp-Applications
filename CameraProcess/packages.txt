@@ -1,0 +1,4 @@
+Modules;
+- OpenCvSharp3-AnyCPU.4.0.0.20181129
+
+You can download the modules here via NuGet Package.

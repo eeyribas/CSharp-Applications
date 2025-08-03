@@ -1,0 +1,6 @@
+Modules;
+- log4net.2.0.3
+- Newtonsoft.Json.13.0.3
+- SuperWebSocket.0.9.0.2
+
+You can download the modules here via NuGet Package.
