@@ -25,6 +25,7 @@ namespace TarOperations
                 {
                     int read;
                     var buffer = new byte[chunk];
+
                     do
                     {
                         read = gzip.Read(buffer, 0, chunk);
@@ -46,6 +47,7 @@ namespace TarOperations
         public static void ExtractTar(Stream stream, string outputDir)
         {
             var buffer = new byte[100];
+
             while (true)
             {
                 stream.Read(buffer, 0, 100);
@@ -61,6 +63,7 @@ namespace TarOperations
                 var output = Path.Combine(outputDir, name);
                 if (!Directory.Exists(Path.GetDirectoryName(output)))
                     Directory.CreateDirectory(Path.GetDirectoryName(output));
+
                 if (!name.EndsWith("/"))
                 {
                     using (var str = File.Open(output, FileMode.OpenOrCreate, FileAccess.Write))

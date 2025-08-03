@@ -1,5 +1,0 @@
-D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocketDLL\bin\x64\Release\TCPSocketDLL.dll
-D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocketDLL\bin\x64\Release\TCPSocketDLL.pdb
-D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocketDLL\obj\x64\Release\TCPSocketDLL.csproj.CoreCompileInputs.cache
-D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocketDLL\obj\x64\Release\TCPSocketDLL.dll
-D:\BACKUP\GitHub Calismalar\CSharp-Applications\TCPSocketDLLCreation\TCPSocketDLL\obj\x64\Release\TCPSocketDLL.pdb

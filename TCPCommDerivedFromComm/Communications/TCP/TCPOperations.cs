@@ -22,16 +22,14 @@ namespace TCPCommDerivedFromComm.Communications.TCP
             try
             {
                 for (int i = 0; i < clients.Length; i++)
-                {
                     clients[i] = new TCPClient();
-                }
 
                 serverSock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 serverSock.Bind(new IPEndPoint(IPAddress.Any, Port));
                 serverSock.Listen(10);
                 serverSock.BeginAccept(new AsyncCallback(Accept), null);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Shared.form1.TCPNotConnected();
             }
@@ -60,12 +58,13 @@ namespace TCPCommDerivedFromComm.Communications.TCP
                         ReceiverIndex = 0,
                     };
 
-                    clients[clientNo].Sock.BeginReceive(clients[clientNo].ReceiverBuffer, clients[clientNo].ReceiverIndex, clients[clientNo].ReceiverCount, SocketFlags.None, new AsyncCallback(Receive), clients[clientNo]);
+                    clients[clientNo].Sock.BeginReceive(clients[clientNo].ReceiverBuffer, clients[clientNo].ReceiverIndex, clients[clientNo].ReceiverCount, 
+                                                        SocketFlags.None, new AsyncCallback(Receive), clients[clientNo]);
                 }
 
                 Shared.form1.TCPConnected();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Shared.form1.TCPNotConnected();
             }
@@ -89,15 +88,15 @@ namespace TCPCommDerivedFromComm.Communications.TCP
                     tcpClient.ReceiverCount = tcpReceiveData.ReceiveTCPDataLength;
                 }
 
-                tcpClient.Sock.BeginReceive(tcpClient.ReceiverBuffer, tcpClient.ReceiverIndex, tcpClient.ReceiverCount, SocketFlags.None, new AsyncCallback(Receive), tcpClient);
+                tcpClient.Sock.BeginReceive(tcpClient.ReceiverBuffer, tcpClient.ReceiverIndex, tcpClient.ReceiverCount, 
+                                            SocketFlags.None, new AsyncCallback(Receive), tcpClient);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 clients[tcpClient.ClientNo].Sock.Dispose();
                 lock (clients)
-                {
                     clients[tcpClient.ClientNo] = null;
-                }
+
                 Shared.form1.TCPNotConnected();
             }
         }
@@ -111,19 +110,17 @@ namespace TCPCommDerivedFromComm.Communications.TCP
                 clients[machineNo].SenderBuffer = new byte[sendData.Count];
 
                 for (int i = 0; i < clients[machineNo].SenderBuffer.Length; i++)
-                {
                     clients[machineNo].SenderBuffer[i] = sendData[i];
-                }
 
-                clients[machineNo].Sock.BeginSend(clients[machineNo].SenderBuffer, clients[machineNo].SenderIndex, clients[machineNo].SenderCount, SocketFlags.None, new AsyncCallback(SendAsync), clients[machineNo]);
+                clients[machineNo].Sock.BeginSend(clients[machineNo].SenderBuffer, clients[machineNo].SenderIndex, clients[machineNo].SenderCount, 
+                                                  SocketFlags.None, new AsyncCallback(SendAsync), clients[machineNo]);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 clients[machineNo].Sock.Dispose();
                 lock (clients)
-                {
                     clients[machineNo] = null;
-                }
+
                 Shared.form1.TCPNotConnected();
             }
         }
@@ -140,32 +137,24 @@ namespace TCPCommDerivedFromComm.Communications.TCP
 
                 if (tcpClient.SenderCount != 0)
                 {
-                    tcpClient.Sock.BeginSend(tcpClient.SenderBuffer, tcpClient.SenderIndex, tcpClient.SenderCount, SocketFlags.None, new AsyncCallback(SendAsync), tcpClient);
+                    tcpClient.Sock.BeginSend(tcpClient.SenderBuffer, tcpClient.SenderIndex, tcpClient.SenderCount, 
+                                             SocketFlags.None, new AsyncCallback(SendAsync), tcpClient);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 clients[tcpClient.ClientNo].Sock.Dispose();
                 lock (clients)
-                {
                     clients[tcpClient.ClientNo] = null;
-                }
+
                 Shared.form1.TCPNotConnected();
             }
         }
 
         public override void Close()
         {
-            try
-            {
-                lock (clients)
-                {
-                    clients[0] = null;
-                }
-            }
-            catch (Exception ex)
-            {
-            }
+            lock (clients)
+                clients[0] = null;
         }
     }
 }

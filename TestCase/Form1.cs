@@ -25,7 +25,8 @@ namespace TestCase
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label3.Text = MathFunctions.Sum(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)).ToString();
+            label3.Text = MathFunctions.Sum(Convert.ToDouble(textBox1.Text), 
+                                            Convert.ToDouble(textBox2.Text)).ToString();
         }
     }
 }

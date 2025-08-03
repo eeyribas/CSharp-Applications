@@ -26,20 +26,14 @@ namespace SystemInformation
 
         public double DriveUsagePercent(string driveName)
         {
-            try
+            foreach (DriveInfo drive in DriveInfo.GetDrives())
             {
-                foreach (DriveInfo drive in DriveInfo.GetDrives())
+                if (drive.IsReady && drive.Name == driveName)
                 {
-                    if (drive.IsReady && drive.Name == driveName)
-                    {
-                        double usage = 100 - (100.0 * drive.AvailableFreeSpace / drive.TotalSize);
-                        return usage;
-                    }
+                    double usage = 100 - (100.0 * drive.AvailableFreeSpace / drive.TotalSize);
+                    
+                    return usage;
                 }
-            }
-            catch
-            {
-                return -2;
             }
 
             return -1;

@@ -1,0 +1,5 @@
+Modules;
+- NUnit.3.13.1
+- xunit.assert.2.9.2
+
+You can download the modules here via NuGet Package.

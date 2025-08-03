@@ -19,26 +19,20 @@ namespace TCPCommDerivedFromComm.Common
 
         public static void Initialize()
         {
-            try
+            SystemInfo systemInfo = new SystemInfo();
+            List<int> processIDs = systemInfo.ProcessID(System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
+            if (processIDs.Count > 0)
             {
-                SystemInfo systemInfo = new SystemInfo();
-                List<int> processIDs = systemInfo.ProcessID(System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
-                if (processIDs.Count > 0)
-                {
-                    Process process = Process.GetProcessById(processIDs[0]);
-                    processInfo = new KeyValuePair<Process, int>(process, processIDs[0]);
-                }
-
-                form1 = new Form1();
-
-                communication = new TCPOperations();
-                communication.ipAddressList.Add("10.0.0.24");
-                communication.Port = 65432;
-                communication.Setup();
+                Process process = Process.GetProcessById(processIDs[0]);
+                processInfo = new KeyValuePair<Process, int>(process, processIDs[0]);
             }
-            catch (Exception ex)
-            {
-            }
+
+            form1 = new Form1();
+
+            communication = new TCPOperations();
+            communication.ipAddressList.Add("10.0.0.24");
+            communication.Port = 65432;
+            communication.Setup();
         }
     }
 }

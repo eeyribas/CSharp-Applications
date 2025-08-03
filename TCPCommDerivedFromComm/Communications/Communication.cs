@@ -13,14 +13,8 @@ namespace TCPCommDerivedFromComm.Communications
 
         public Communication()
         {
-            try
-            {
-                ipAddressList.Clear();
-                Port = 65432;
-            }
-            catch (Exception ex)
-            {
-            }
+            ipAddressList.Clear();
+            Port = 65432;
         }
 
         public virtual void Setup() { }

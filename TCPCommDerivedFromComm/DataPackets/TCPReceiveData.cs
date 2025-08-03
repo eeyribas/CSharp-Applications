@@ -21,15 +21,9 @@ namespace TCPCommDerivedFromComm.DataPackets
 
         public TCPReceiveData(byte[] receiveData)
         {
-            try
-            {
-                Value1 = Convert.ToInt32(receiveData[0]);
-                Value2 = Convert.ToDouble((receiveData[1] * 100) + receiveData[2] + (receiveData[3] / 100));
-                Value3 = Convert.ToDouble((receiveData[4] * 100) + receiveData[5] + (receiveData[6] / 100));
-            }
-            catch (Exception ex)
-            {
-            }
+            Value1 = Convert.ToInt32(receiveData[0]);
+            Value2 = Convert.ToDouble((receiveData[1] * 100) + receiveData[2] + (receiveData[3] / 100));
+            Value3 = Convert.ToDouble((receiveData[4] * 100) + receiveData[5] + (receiveData[6] / 100));
         }
     }
 }

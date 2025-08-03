@@ -19,7 +19,8 @@ namespace YesNoForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form yesNoForm = new YesNoForm(Form.ActiveForm, "Emin misiniz ?", "Programı kapatmak istiyor musunuz?", "Evet", "Hayır", "Close Application");
+            Form yesNoForm = new YesNoForm(Form.ActiveForm, "Are you sure?", "Are you sure you want to close the program?", 
+                                           "Yes", "No", "Close Application");
             yesNoForm.ShowDialog();
         }
     }

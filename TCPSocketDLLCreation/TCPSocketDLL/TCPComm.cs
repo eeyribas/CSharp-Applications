@@ -50,7 +50,8 @@ namespace TCPSocketDLL
                 tcpClientInfos[clientNo].LeftReceiver = 6;
                 tcpClientInfos[clientNo].IndexReceiver = 0;
 
-                tcpClientInfos[clientNo].Sock.BeginReceive(tcpClientInfos[clientNo].BufferReceiver, tcpClientInfos[clientNo].IndexReceiver, tcpClientInfos[clientNo].LeftReceiver, SocketFlags.None, new AsyncCallback(Receive), tcpClientInfos[clientNo]);
+                tcpClientInfos[clientNo].Sock.BeginReceive(tcpClientInfos[clientNo].BufferReceiver, tcpClientInfos[clientNo].IndexReceiver, tcpClientInfos[clientNo].LeftReceiver, 
+                                                           SocketFlags.None, new AsyncCallback(Receive), tcpClientInfos[clientNo]);
                 clientNo++;
 
                 ConnectStatus = "Connected";
@@ -70,7 +71,8 @@ namespace TCPSocketDLL
 
                 if (tcpClientInfo.LeftReceiver == 0)
                 {
-                    int value1 = Convert.ToInt32(((tcpClientInfo.BufferReceiver[0] << 24) | (tcpClientInfo.BufferReceiver[1] << 16) | (tcpClientInfo.BufferReceiver[2] << 8) | (tcpClientInfo.BufferReceiver[3])));
+                    int value1 = Convert.ToInt32(((tcpClientInfo.BufferReceiver[0] << 24) | (tcpClientInfo.BufferReceiver[1] << 16) | 
+                                                 (tcpClientInfo.BufferReceiver[2] << 8) | (tcpClientInfo.BufferReceiver[3])));
                     int value2 = Convert.ToInt32(tcpClientInfo.BufferReceiver[4].ToString());
                     int value3 = Convert.ToInt32(tcpClientInfo.BufferReceiver[5].ToString());
 
@@ -81,9 +83,11 @@ namespace TCPSocketDLL
                     tcpClientInfo.IndexReceiver = 0;
                     tcpClientInfo.LeftReceiver = 6;
                 }
-                tcpClientInfo.Sock.BeginReceive(tcpClientInfo.BufferReceiver, tcpClientInfo.IndexReceiver, tcpClientInfo.LeftReceiver, SocketFlags.None, new AsyncCallback(Receive), tcpClientInfo);
+
+                tcpClientInfo.Sock.BeginReceive(tcpClientInfo.BufferReceiver, tcpClientInfo.IndexReceiver, tcpClientInfo.LeftReceiver, 
+                                                SocketFlags.None, new AsyncCallback(Receive), tcpClientInfo);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 tcpClientInfo.Sock.Dispose();
                 lock (tcpClientInfos)

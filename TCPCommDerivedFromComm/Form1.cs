@@ -46,32 +46,20 @@ namespace TCPCommDerivedFromComm
         delegate void TextLabelCallback(Label lb, string text);
         public static void TextLabel(Label lb, string text)
         {
-            try
+            if (lb.InvokeRequired)
             {
-                if (lb.InvokeRequired)
-                {
-                    TextLabelCallback d = new TextLabelCallback(_TextLabel);
-                    lb.Invoke(d, new object[] { lb, text });
-                }
-                else
-                {
-                    _TextLabel(lb, text);
-                }
+                TextLabelCallback d = new TextLabelCallback(_TextLabel);
+                lb.Invoke(d, new object[] { lb, text });
             }
-            catch (Exception ex)
+            else
             {
+                _TextLabel(lb, text);
             }
         }
 
         private static void _TextLabel(Label lb, string text)
         {
-            try
-            {
-                lb.Text = text;
-            }
-            catch (Exception ex)
-            {
-            }
+            lb.Text = text;
         }
     }
 }

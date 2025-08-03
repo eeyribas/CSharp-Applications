@@ -11,17 +11,11 @@ namespace TCPCommDerivedFromComm.DataPackets
     {
         public void TCPSend(int clientIndex, List<byte> communicationData)
         {
-            try
-            {
-                List<byte> sendData = new List<byte>();
-                for (int i = 0; i < communicationData.Count; i++)
-                    sendData.Add(communicationData[i]);
+            List<byte> sendData = new List<byte>();
+            for (int i = 0; i < communicationData.Count; i++)
+                sendData.Add(communicationData[i]);
 
-                Shared.communication.Send(clientIndex, sendData);
-            }
-            catch (Exception ex)
-            {
-            }
+            Shared.communication.Send(clientIndex, sendData);
         }
     }
 }

@@ -35,28 +35,20 @@ namespace ThreadUsage
         delegate void SetListBoxCallback(ListBox lb, string value);
         private void SetListBox(ListBox lb, string value)
         {
-            try
+            if (lb.InvokeRequired)
             {
-                if (lb.InvokeRequired)
-                {
-                    SetListBoxCallback d = new SetListBoxCallback(_SetListBox);
-                    lb.Invoke(d, new object[] { lb, value });
-                }
-                else
-                {
-                    _SetListBox(lb, value);
-                }
+                SetListBoxCallback d = new SetListBoxCallback(_SetListBox);
+                lb.Invoke(d, new object[] { lb, value });
             }
-            catch { }
+            else
+            {
+                _SetListBox(lb, value);
+            }
         }
 
         private void _SetListBox(ListBox lb, string value)
         {
-            try
-            {
-                lb.Items.Insert(0, value);
-            }
-            catch { }
+            lb.Items.Insert(0, value);
         }
     }
 }

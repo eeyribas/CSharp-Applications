@@ -21,22 +21,14 @@ namespace TCPCommDerivedFromComm.Communications.TCP
 
         public TCPClient()
         {
-            try
-            {
-                TCPReceiveData tcpReceiveData = new TCPReceiveData();
+            TCPReceiveData tcpReceiveData = new TCPReceiveData();
 
-                ReceiverBuffer = new byte[tcpReceiveData.ReceiveTCPDataLength];
-                for (int i = 0; i < ReceiverBuffer.Length; i++)
-                {
-                    ReceiverBuffer[i] = 0;
-                }
+            ReceiverBuffer = new byte[tcpReceiveData.ReceiveTCPDataLength];
+            for (int i = 0; i < ReceiverBuffer.Length; i++)
+                ReceiverBuffer[i] = 0;
 
-                ReceiverIndex = 0;
-                ReceiverCount = tcpReceiveData.ReceiveTCPDataLength;
-            }
-            catch (Exception ex)
-            {
-            }
+            ReceiverIndex = 0;
+            ReceiverCount = tcpReceiveData.ReceiveTCPDataLength;
         }
     }
 }

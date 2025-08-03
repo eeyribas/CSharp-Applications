@@ -19,23 +19,18 @@ namespace YesNoForm
             InitializeComponent();
         }
 
-        public YesNoForm(Form callingForm, string title, string message, string yesButtonText, string noButtonText, string yesCommand)
+        public YesNoForm(Form callingForm, string title, string message, 
+                         string yesButtonText, string noButtonText, string yesCommand)
         {
-            try
-            {
-                Form1 form1 = callingForm as Form1;
-                InitializeComponent();
+            Form1 form1 = callingForm as Form1;
+            InitializeComponent();
 
-                label1.Text = title;
-                label2.Text = message;
-                button1.Text = yesButtonText;
-                button2.Text = noButtonText;
+            label1.Text = title;
+            label2.Text = message;
+            button1.Text = yesButtonText;
+            button2.Text = noButtonText;
 
-                command = yesCommand;
-            }
-            catch (Exception ex)
-            {
-            }
+            command = yesCommand;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -54,7 +49,7 @@ namespace YesNoForm
         private void Button_MouseLeave(object sender, EventArgs e)
         {
             Button tmpButton = sender as Button;
-            tmpButton.BackColor = System.Drawing.Color.FromArgb(64, 64, 64);
+            tmpButton.BackColor = Color.FromArgb(64, 64, 64);
             tmpButton.ForeColor = Color.LightGray;
         }
 

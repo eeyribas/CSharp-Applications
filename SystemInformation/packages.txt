@@ -1,0 +1,5 @@
+Modules;
+- System.CodeDom.8.0.0
+- System.Management.8.0.0
+
+You can download the modules here via NuGet Package.

@@ -46,7 +46,7 @@ namespace YesNoForm
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(505, 101);
             this.label2.TabIndex = 314;
-            this.label2.Text = "Mesaj İçeriği";
+            this.label2.Text = "Message Content";
             // 
             // button1
             // 
@@ -104,9 +104,9 @@ namespace YesNoForm
             this.label1.Location = new System.Drawing.Point(21, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 28);
+            this.label1.Size = new System.Drawing.Size(159, 28);
             this.label1.TabIndex = 312;
-            this.label1.Text = "Uyarı Başlığı";
+            this.label1.Text = "Warning Title";
             // 
             // YesNoForm
             // 
